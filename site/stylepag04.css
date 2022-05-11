@@ -80,15 +80,15 @@ li#email::before {
 }
 
 li#insta::before {
-    content:url(image/icone-instagram.png)
+    content:url(image/icone-instagram.png);
 }
 
 li#git::before {
-    content:url(image/icone-github.png)
+    content:url(image/icone-github.png);
 }
 
 li#face::before {
-    content:url(image/icone-facebook.png)
+    content:url(image/icone-facebook.png);
 }
 
 .redes {
