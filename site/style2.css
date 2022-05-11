@@ -60,6 +60,7 @@ section > h1 {
 
 section h1, h3, h2 {
     padding: 0px 0px 15px 0px;
+    color: #1f1f1f;
 }
 
 #p1::before {

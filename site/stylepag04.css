@@ -75,6 +75,10 @@ li#whats::before {
     content: url(image/icone-whatsapp.png);
 }
 
+li#email::before {
+    content: url(image/icone-email.png);
+}
+
 li#insta::before {
     content:url(image/icone-instagram.png)
 }
@@ -95,6 +99,7 @@ li#face::before {
 .redes:hover {
     text-decoration: underline;
     color: rgb(53, 53, 53);
+    font-weight: bold;
 }
 
 div#back, a {
