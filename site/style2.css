@@ -58,7 +58,7 @@ section > h1 {
     text-align: center;
 }
 
-section h1, h3 {
+section h1, h3, h2 {
     padding: 0px 0px 15px 0px;
 }
 
@@ -98,7 +98,8 @@ div#back a:hover {
 }
 
 footer {
-    margin-top: 55px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-align: center;
     font-style: italic;
     font-weight: bold;
@@ -107,7 +108,7 @@ footer {
 @media screen and (max-width: 540px) {
     header, ul, li {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     main {
         margin-top: 0px;
@@ -123,8 +124,10 @@ footer {
     }
     nav a:hover {
         font-size: 15pt;
-        animation-name: size;
         transition-duration: .6s;
         position: relative;
+    }
+    img.img-lucas {
+        display: none;
     }
 }
